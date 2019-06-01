@@ -130,6 +130,10 @@ Carousel
   font-size: 100px;
   border: none;
 }
+.carousel-control:hover {
+  background: rgba(26, 188, 156);
+  cursor: pointer;
+}
 .carousel-control-prev {
   float: left;
   background: rgba(26, 188, 156, .65);
@@ -139,7 +143,7 @@ Carousel
 }
 .carousel-control-next {
   float: right;
-  background: rgba(26, 188, 156);
+  background: rgba(26, 188, 156, .65);
 }
 .carousel-control-next::after {
   content: "\e684";
