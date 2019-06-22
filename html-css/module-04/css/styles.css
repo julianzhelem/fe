@@ -68,10 +68,6 @@
     color: #1abc9c;
 }
 
-.navigation > a:active {
-    color: #1abc9c;
-}
-
 /* Products section */
 .products {
     margin: 0 auto;
