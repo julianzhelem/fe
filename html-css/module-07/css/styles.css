@@ -158,10 +158,10 @@ textarea::placeholder {
 textarea:focus, input:focus {
   outline: none;
 }
-textarea:valid, input:valid {
+textarea:focus:valid, input:focus:valid {
   border: 2px solid green;
 }
-textarea:invalid, input:invalid {
+textarea:focus:invalid, input:focus:invalid {
   border: 2px solid red;
 }
 .button-wrapper {
