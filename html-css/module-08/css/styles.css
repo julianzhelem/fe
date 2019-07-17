@@ -41,7 +41,21 @@ img {
   padding: 12px 17px;
   border: 2px solid #fff;
   border-radius: 18px;
-  margin-left: 20px;
+  transition: .2s ease-out;
+}
+.signup:hover {
+  background: #fff;
+  color: #ff4e50;
+  transition: .2s ease-in;
+}
+.login {
+  padding: 14px 19px;
+  border-radius: 18px;
+  transition: .2s ease-out;
+}
+.login:hover {
+  background: rgba(256, 256, 256, .2);
+  transition: .2s ease-in;
 }
 .logo {
   display: block;
@@ -78,6 +92,12 @@ img {
   border-radius: 20px;
   background-color: #ff4e50;
   border: none;
+  transition: .2s ease-out;
+}
+.cta:hover {
+  background: #aa1315;
+  cursor: pointer;
+  transition: .2s ease-in;
 }
 /* partners list */
 .partners {
@@ -165,6 +185,13 @@ h2 {
   border-radius: 20px;
   background-color: #ffffff;
   border: 2px solid #ff4e50;
+  transition: .2s ease-out;
+}
+.all:hover {
+  background: #ff4e50;
+  color: #fff;
+  transition: .2s ease-in;
+  cursor: pointer;
 }
 /* -----------------tablet-------------------- */
 @media (min-width:768px) {
