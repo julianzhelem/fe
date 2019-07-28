@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+/* banner */
+.banner {
+  background: url("../images/background.png");
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nav {
+  padding: 35px 0 136px 0;
+}
+.nav__link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+.signup {
+  padding: 12px 17px;
+  border: 2px solid #fff;
+  border-radius: 18px;
+  transition: 0.2s ease-out;
+}
+.signup:hover {
+  background: #fff;
+  color: #ff4e50;
+  transition: 0.2s ease-in;
+  text-decoration: none;
+}
+.login {
+  padding: 14px 19px;
+  border-radius: 18px;
+  transition: 0.2s ease-out;
+}
+.login:hover {
+  background: #ff4e50;
+  color: #fff;
+  transition: 0.2s ease-in;
+  text-decoration: none;
+}
+.logo {
+  margin: 0 auto;
+  width: 185px;
+  height: auto;
+  padding-bottom: 38px;
+}
+.banner-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 19px;
+  margin: 0 auto;
+}
+.banner-description {
+  font-size: 16px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  display: block;
+  padding-bottom: 18px;
+}
+.cta {
+  font-size: 14px;
+  width: 280px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 13px 45px;
+  border-radius: 20px;
+  background-color: #ff4e50;
+  border: none;
+  transition: 0.2s ease-out;
+  margin: 0 auto;
+}
+.cta:hover {
+  background: #fff;
+  color: #ff4e50;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+/* partners */
+.partners {
+    padding-bottom: 57px; 
+}
+h2 {
+  padding-top: 67px;
+  font-size: 22px;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding-bottom: 14px;
+}
+.partners-list {
+  list-style: none;
+}
+.partners-item {
+  margin: 0 auto;
+  padding-bottom: 27px;
+}
+.partners-image {
+  width: 122px;
+  height: 122px;
+  margin: 0 auto;
+}
+.partners-photo {
+  border-radius: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.partners-icon {
+  content: "";
+  width: 33px;
+  height: 33px;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4pt white;
+}
+.partners-icon img {
+  width: 16px;
+  height: 16px;
+  padding-right: 1px;
+}
+.partners-icon-1 {
+  background-color: #ff4e50;
+}
+.partners-icon-2 {
+  background-color: #ffa507;
+}
+.partners-icon-3 {
+  background-color: #1cd7ad;
+}
+.partners-icon-4 {
+  background-color: #4e73db;
+}
+.partners-name {
+  font-size: 14px;
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 19px 0;
+}
+.partners-info {
+  font-size: 14px;
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.all {
+  margin: 0 auto;
+  font-size: 14px;
+  color: #ff4e50;
+  font-family: "Montserrat", sans-serif;
+  padding: 11px 68px;
+  font-weight: 700;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: 2px solid #ff4e50;
+  transition: .2s ease-out;
+  width: 280px;
+}
+.all:hover {
+  background: #ff4e50;
+  color: #fff;
+  transition: .2s ease-in;
+  cursor: pointer;
+}
+/* -----------------tablet-------------------- */
+@media (min-width:768px) {
+    .menu {
+        align-items: center;
+        padding: 46px 50px 0 50px; 
+    }
+    .nav {
+        padding: 0;
+    }
+    .logo {
+        padding: 0;
+        margin: 0;
+    }
+    .banner-title {
+        padding-top: 160px;
+        font-size: 52px;
+    }
+    .banner-description {
+        font-size: 24px;
+    }
+    h2 {
+        padding-bottom: 30px;
+    }
+    .partners-list {
+        margin: 0 auto;
+    }
+    .partners-item {
+        padding-bottom: 55px;
+    }
+}
+/* -----------------desktop-------------------- */
+@media (min-width:960px) {
+    .banner-title {
+        max-width: 510px;
+    }
+    h2 {
+        padding-bottom: 30px;
+    }
+}
+
+
+
