@@ -162,6 +162,7 @@ h2 {
   color: #666666;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  max-width: 217px;
 }
 .all {
   margin: 0 auto;
