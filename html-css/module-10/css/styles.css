@@ -7,6 +7,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 img {
   height: auto;
@@ -149,14 +150,16 @@ header {
   color: #fff;
   text-transform: uppercase;
   padding-top: 21px;
-  padding-bottom: 124px;
+  padding-bottom: 62px;
 }
 .banner__action {
   display: block;
+  width: 160px;
   background: none;
   border: 2px solid #fff;
   color: #fff;
   text-transform: uppercase;
+  text-decoration: none;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
